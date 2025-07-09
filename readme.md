@@ -1,4 +1,6 @@
-# Klear-CodeTest: Scalable Test Case Generation for Code RL
+# Klear-CodeTest: Klear-CodeTest: Scalable Test Case Generation and Stable Sandbox System for Code Reinforcement Learning
+
+
 
 Welcome to **Klear-CodeTest**, the official repository for our scalable and reliable test case generation framework tailored for **code reinforcement learning (RL)**. This project provides:
 
@@ -259,6 +261,9 @@ We evaluate the correctness and discriminative power of CodeTest test cases acro
 
 - **TNR** (True Negative Rate): Measures whether test cases reject incorrect solutions.
 
+The following table presents test case quality evaluation across different programming languages.  
+**“P”** and **“G”** represent the **public** and **generated** test cases used in **CodeContests**, respectively.
+
 | Dataset | Language | TPR ↑ | TNR ↑ |
 |---------|----------|--------|--------|
 | **CodeContests (P)** | C/C++ | 45.8 | 53.8 |
@@ -273,6 +278,8 @@ We evaluate the correctness and discriminative power of CodeTest test cases acro
 |  | Python3 | **93.4** | **87.5** |
 |  | Python2 | **85.8** | **78.6** |
 |  | **All** | **91.4** | **87.8** |
+
+
 
 ---
 
