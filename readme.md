@@ -1,4 +1,4 @@
-# Klear-CodeTest: Klear-CodeTest: Scalable Test Case Generation and Stable Sandbox System for Code Reinforcement Learning
+# Klear-CodeTest: Scalable Test Case Generation and Stable Sandbox System for Code Reinforcement Learning
 
 
 
@@ -284,5 +284,17 @@ The following table presents test case quality evaluation across different progr
 ---
 
 
-## �� Acknowledgments
+## Acknowledgments
+
+## Citation
+If you find this project is useful in your own work, please consider citing as follows:
+```
+@misc{openr1,
+    title = {Klear-CodeTest: Scalable Test Case Generation and Stable Sandbox System for Code Reinforcement Learning},
+    url = {https://github.com/Kwai-Klear/CodeTest},
+    author = {{Klear Team, Kuaishou Technology}},
+    month = {July},
+    year = {2025}
+}
+```
 
