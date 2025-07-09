@@ -270,11 +270,11 @@ The following table presents test case quality evaluation across different progr
 |  | Python3 | 77.6 | 45.4 |
 |  | Python2 | 68.8 | 38.1 |
 |  | **All** | 71.9 | 47.2 |
-| **CodeContests (G)** | C/C++ | 85.98 | 92.82 |
+| **CodeContests (G)** | C/C++ | 86.0 | 92.8 |
 |  | Python3 | 91.3 | 82.7 |
 |  | Python2 | 84.1 | 74.6 |
 |  | **All** | 89.1 | 84.3 |
-| **CodeTest (Ours)** | C/C++ | **86.59** | **93.64** |
+| **CodeTest (Ours)** | C/C++ | **86.6** | **93.6** |
 |  | Python3 | **93.4** | **87.5** |
 |  | Python2 | **85.8** | **78.6** |
 |  | **All** | **91.4** | **87.8** |
@@ -289,7 +289,7 @@ The following table presents test case quality evaluation across different progr
 ## Citation
 If you find this project is useful in your own work, please consider citing as follows:
 ```
-@misc{openr1,
+@misc{klear_codetest,
     title = {Klear-CodeTest: Scalable Test Case Generation and Stable Sandbox System for Code Reinforcement Learning},
     url = {https://github.com/Kwai-Klear/CodeTest},
     author = {{Klear Team, Kuaishou Technology}},
