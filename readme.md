@@ -10,6 +10,7 @@ Welcome to **Klear-CodeTest**, the official repository for our scalable and reli
 
 
 🔗 **Project Website**: https://github.com/Kwai-Klear/CodeTest
+🔗 **dataset**: https://huggingface.co/datasets/Jianlp/Klear-CodeTest
 
 ---
 
