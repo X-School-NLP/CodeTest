@@ -1,7 +1,5 @@
 # Klear-CodeTest: Scalable Test Case Generation and Stable Sandbox System for Code Reinforcement Learning
 
-
-
 Welcome to **Klear-CodeTest**, the official repository for our scalable and reliable test case generation framework tailored for **code reinforcement learning (RL)**. This project provides:
 
 - A **Generator-Validation (G-V) framework** to synthesize diverse, high-quality test cases.
@@ -11,6 +9,8 @@ Welcome to **Klear-CodeTest**, the official repository for our scalable and reli
 
 🔗 **Project Website**: https://github.com/Kwai-Klear/CodeTest
 🔗 **dataset**: https://huggingface.co/datasets/Jianlp/Klear-CodeTest
+
+Go to the [dataset page](https://huggingface.co/datasets/Jianlp/Klear-CodeTest), download codetest-22.jsonl, and put it in the CodeTest/data directory. Then, `cd` to the CodeTest/code directory and run `python map_codetest.py ../data/codetest-22.jsonl`. This will create a mapped_codetest.pkl file in the CodeTest/data directory.
 
 ---
 
