@@ -193,6 +193,15 @@ def map_codetest_dataset(jsonl_path: str, output_path: str) -> List[Problem]:
     logger.info(f"Saved {len(mapped_problems)} problems to {output_path}")
     return mapped_problems
 
+def load_codetest_dataset_pkl(pkl_path: str = "../data/mapped_codetest-22.pkl") -> List[Problem]:
+    # Make path relative to this file's directory instead of current working directory
+    if not os.path.isabs(pkl_path):
+        current_dir = os.path.dirname(os.path.abspath(__file__))
+        pkl_path = os.path.join(current_dir, pkl_path)
+    
+    with open(pkl_path, 'rb') as f:
+        return pickle.load(f)
+
 def main():
     """Main function to run the mapper from command line."""
     logger = logging.getLogger(__name__)
